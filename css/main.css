@@ -89,6 +89,13 @@ textarea {
 
 /* Basic Header- Footer Styles*/
 
+  header {
+    padding: 15px 0;
+
+}
+
+
+
    header, footer {
     display: flex;
     justify-content: center;
@@ -102,6 +109,7 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    margin: 0;
 
    }
 
@@ -110,19 +118,56 @@ textarea {
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
+    width: 60%;
    }
 
    header nav ul {
     display: flex;
     justify-content: space-around;
-
-  
+    width: 100%;
+    
    }
+
+   .features p {
+    margin: 0;
+
+    }
+
+   footer {
+    flex-direction: column;
+   }
+
+   footer p {
+    margin: 0;
+   }
+
+   footer.content-wrapper {
+    width: 55%;
+    margin: 50px 0;
+   }
+
+   footer.contact {
+    margin-bottom: 50px;
+
+   }
+
+   footer .social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  footer .social-icons p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
    footer.social-media {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 60%;
 
    }
 
@@ -133,14 +178,20 @@ textarea {
 
    }
 
+   footer.copyright {
+    margin: 20px 0;
+   }
+
    /* Mobile Styles Homepage */
 
    .hero-section {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    padding: 50px;
 
    }
+
 
    /* Aside */
  
@@ -165,6 +216,11 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    width: 90%;
+   }
+
+   .features p {
+    margin: 0;
    }
 
    /* Reviews */
@@ -173,6 +229,7 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    width: 90%;
    }
 
    /* About Page */
